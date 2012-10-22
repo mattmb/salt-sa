@@ -1,0 +1,4 @@
+base:
+  '*':
+    - sa_server
+
