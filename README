@@ -1,0 +1,16 @@
+This is a standalone salt installer including a salt state
+which will complete all the prereqs for HP SA 9.10 on a RHEL
+5.4 server.
+
+To use it simply untar the salt_sa.tar.gz, cd into the new
+directory and run install.sh. At the end of the script press
+enter to reboot.
+
+A log of the salt output is in /root/salt/sa_reqs.log
+
+Future versions will hopefully be a bit more general but the
+specific rpms used here might break newer (or older) versions
+of RHEL. It has only been tested on a clean install with no
+extra packages selected.
+
+matthew@automationlogic.com
